@@ -15,7 +15,7 @@ type ArticleController struct {
 
 // ShowAddType 显示添加类型界面
 func (c *ArticleController) ShowAddType() {
-	fmt.Println("此处仅作为测试git")
+	//fmt.Println("此处仅作为测试git")
 	//思路
 	//1.从数据库查询文章类型
 	o := orm.NewOrm()
